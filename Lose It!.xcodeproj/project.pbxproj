@@ -13,6 +13,11 @@
 		839272E126E63FBB002553BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839272DF26E63FBB002553BE /* Main.storyboard */; };
 		839272E326E63FBD002553BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839272E226E63FBD002553BE /* Assets.xcassets */; };
 		839272E626E63FBD002553BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 839272E426E63FBD002553BE /* LaunchScreen.storyboard */; };
+		839272F126E75038002553BE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839272F026E75038002553BE /* InfoViewController.swift */; };
+		839272FB26E78FAE002553BE /* EstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839272FA26E78FAE002553BE /* EstimateViewController.swift */; };
+		8392730326E79A5D002553BE /* MyDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392730226E79A5D002553BE /* MyDayViewController.swift */; };
+		8392730926E89A11002553BE /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392730826E89A11002553BE /* LogViewController.swift */; };
+		8392731226E95006002553BE /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392731126E95006002553BE /* ExerciseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		839272E226E63FBD002553BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		839272E526E63FBD002553BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		839272E726E63FBD002553BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		839272F026E75038002553BE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		839272FA26E78FAE002553BE /* EstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewController.swift; sourceTree = "<group>"; };
+		8392730226E79A5D002553BE /* MyDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayViewController.swift; sourceTree = "<group>"; };
+		8392730826E89A11002553BE /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		8392731126E95006002553BE /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +68,34 @@
 			children = (
 				839272D926E63FBB002553BE /* AppDelegate.swift */,
 				839272DB26E63FBB002553BE /* SceneDelegate.swift */,
-				839272DD26E63FBB002553BE /* ViewController.swift */,
-				839272DF26E63FBB002553BE /* Main.storyboard */,
+				839272EE26E75013002553BE /* Controllers */,
+				8392730526E79A63002553BE /* View */,
 				839272E226E63FBD002553BE /* Assets.xcassets */,
 				839272E426E63FBD002553BE /* LaunchScreen.storyboard */,
 				839272E726E63FBD002553BE /* Info.plist */,
 			);
 			path = "Lose It!";
+			sourceTree = "<group>";
+		};
+		839272EE26E75013002553BE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				839272DD26E63FBB002553BE /* ViewController.swift */,
+				839272F026E75038002553BE /* InfoViewController.swift */,
+				8392731126E95006002553BE /* ExerciseViewController.swift */,
+				839272FA26E78FAE002553BE /* EstimateViewController.swift */,
+				8392730226E79A5D002553BE /* MyDayViewController.swift */,
+				8392730826E89A11002553BE /* LogViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8392730526E79A63002553BE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				839272DF26E63FBB002553BE /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +168,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				839272FB26E78FAE002553BE /* EstimateViewController.swift in Sources */,
 				839272DE26E63FBB002553BE /* ViewController.swift in Sources */,
+				8392730926E89A11002553BE /* LogViewController.swift in Sources */,
+				8392730326E79A5D002553BE /* MyDayViewController.swift in Sources */,
 				839272DA26E63FBB002553BE /* AppDelegate.swift in Sources */,
+				839272F126E75038002553BE /* InfoViewController.swift in Sources */,
+				8392731226E95006002553BE /* ExerciseViewController.swift in Sources */,
 				839272DC26E63FBB002553BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +325,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GLG29GZSU;
 				INFOPLIST_FILE = "Lose It!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -308,6 +345,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GLG29GZSU;
 				INFOPLIST_FILE = "Lose It!/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
