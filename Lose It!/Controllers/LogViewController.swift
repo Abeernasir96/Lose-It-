@@ -17,6 +17,7 @@ class LogViewController: UIViewController{
     @IBOutlet weak var breakfastButton: UIButton!
     @IBOutlet weak var lunchButton: UIButton!
     @IBOutlet weak var dinnerLabel: UILabel!
+    @IBOutlet weak var dinnerButton: UIButton!
     var bfCal : Int = 0
     var dCal : Int = 0
     var lCal : Int = 0

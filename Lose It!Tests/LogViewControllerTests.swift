@@ -19,12 +19,7 @@ class LogViewControllerTests: XCTestCase {
         sut = nil
         try super.tearDownWithError()
     }
-    func testBFPressed(){
-        let button = UIButton()
-        button.sendActions(for: .touchUpInside)
-        sut.breakfastButton = button
-        XCTAssertNotNil(sut.breakfastButton)
-    }
+   
 
     
 

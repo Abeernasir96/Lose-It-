@@ -24,10 +24,7 @@
 		8392732726ED441A002553BE /* CalorieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392732626ED441A002553BE /* CalorieData.swift */; };
 		8392732B26EDFF8D002553BE /* CalorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392732A26EDFF8D002553BE /* CalorieModel.swift */; };
 		8392733526EE2609002553BE /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392733326EE2609002553BE /* LogViewController.swift */; };
-		8392737A26F31D05002553BE /* CalculatorBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392737926F31D05002553BE /* CalculatorBrainTests.swift */; };
-		8392738026F323B9002553BE /* CalorieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392737F26F323B9002553BE /* CalorieManagerTests.swift */; };
 		8392738A26F34909002553BE /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392738926F34909002553BE /* SearchViewControllerTests.swift */; };
-		8392738E26F34CE0002553BE /* MyDayViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392738D26F34CE0002553BE /* MyDayViewControllerTests.swift */; };
 		8392739226F3550D002553BE /* LogViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392739126F3550D002553BE /* LogViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -63,10 +60,7 @@
 		8392733326EE2609002553BE /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		8392736126F12944002553BE /* Lose It!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lose It!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8392736526F12944002553BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8392737926F31D05002553BE /* CalculatorBrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrainTests.swift; sourceTree = "<group>"; };
-		8392737F26F323B9002553BE /* CalorieManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieManagerTests.swift; sourceTree = "<group>"; };
 		8392738926F34909002553BE /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
-		8392738D26F34CE0002553BE /* MyDayViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayViewControllerTests.swift; sourceTree = "<group>"; };
 		8392739126F3550D002553BE /* LogViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -159,10 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				8392736526F12944002553BE /* Info.plist */,
-				8392737926F31D05002553BE /* CalculatorBrainTests.swift */,
-				8392737F26F323B9002553BE /* CalorieManagerTests.swift */,
 				8392738926F34909002553BE /* SearchViewControllerTests.swift */,
-				8392738D26F34CE0002553BE /* MyDayViewControllerTests.swift */,
 				8392739126F3550D002553BE /* LogViewControllerTests.swift */,
 			);
 			path = "Lose It!Tests";
@@ -289,11 +280,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8392737A26F31D05002553BE /* CalculatorBrainTests.swift in Sources */,
-				8392738026F323B9002553BE /* CalorieManagerTests.swift in Sources */,
 				8392739226F3550D002553BE /* LogViewControllerTests.swift in Sources */,
 				8392738A26F34909002553BE /* SearchViewControllerTests.swift in Sources */,
-				8392738E26F34CE0002553BE /* MyDayViewControllerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
