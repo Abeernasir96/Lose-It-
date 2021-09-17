@@ -30,12 +30,13 @@ class ExerciseViewController: UIViewController {
     
     @IBAction func answerButtonPressed(_ sender: Any) {
         if questionNumber+1 < quiz.count{
-            
         questionNumber+=1
+       }
+        else{
+            performSegue(withIdentifier: "goToInfo", sender: nil)
+        }
         updateUI()
-       
-        }
-        }
+    }
        
     
     

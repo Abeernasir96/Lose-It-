@@ -16,9 +16,30 @@
 		839272F126E75038002553BE /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839272F026E75038002553BE /* InfoViewController.swift */; };
 		839272FB26E78FAE002553BE /* EstimateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 839272FA26E78FAE002553BE /* EstimateViewController.swift */; };
 		8392730326E79A5D002553BE /* MyDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392730226E79A5D002553BE /* MyDayViewController.swift */; };
-		8392730926E89A11002553BE /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392730826E89A11002553BE /* LogViewController.swift */; };
 		8392731226E95006002553BE /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392731126E95006002553BE /* ExerciseViewController.swift */; };
+		8392731826EA2F61002553BE /* Calories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392731726EA2F61002553BE /* Calories.swift */; };
+		8392731C26EA349B002553BE /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392731B26EA349B002553BE /* CalculatorBrain.swift */; };
+		8392732126EBEC38002553BE /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392732026EBEC38002553BE /* SearchViewController.swift */; };
+		8392732426ECA0F7002553BE /* CalorieManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392732326ECA0F7002553BE /* CalorieManager.swift */; };
+		8392732726ED441A002553BE /* CalorieData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392732626ED441A002553BE /* CalorieData.swift */; };
+		8392732B26EDFF8D002553BE /* CalorieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392732A26EDFF8D002553BE /* CalorieModel.swift */; };
+		8392733526EE2609002553BE /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392733326EE2609002553BE /* LogViewController.swift */; };
+		8392737A26F31D05002553BE /* CalculatorBrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392737926F31D05002553BE /* CalculatorBrainTests.swift */; };
+		8392738026F323B9002553BE /* CalorieManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392737F26F323B9002553BE /* CalorieManagerTests.swift */; };
+		8392738A26F34909002553BE /* SearchViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392738926F34909002553BE /* SearchViewControllerTests.swift */; };
+		8392738E26F34CE0002553BE /* MyDayViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392738D26F34CE0002553BE /* MyDayViewControllerTests.swift */; };
+		8392739226F3550D002553BE /* LogViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8392739126F3550D002553BE /* LogViewControllerTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8392736626F12944002553BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 839272CE26E63FBB002553BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 839272D526E63FBB002553BE;
+			remoteInfo = "Lose It!";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		839272D626E63FBB002553BE /* Lose It!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lose It!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -32,12 +53,32 @@
 		839272F026E75038002553BE /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
 		839272FA26E78FAE002553BE /* EstimateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimateViewController.swift; sourceTree = "<group>"; };
 		8392730226E79A5D002553BE /* MyDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayViewController.swift; sourceTree = "<group>"; };
-		8392730826E89A11002553BE /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
 		8392731126E95006002553BE /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		8392731726EA2F61002553BE /* Calories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calories.swift; sourceTree = "<group>"; };
+		8392731B26EA349B002553BE /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
+		8392732026EBEC38002553BE /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		8392732326ECA0F7002553BE /* CalorieManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieManager.swift; sourceTree = "<group>"; };
+		8392732626ED441A002553BE /* CalorieData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieData.swift; sourceTree = "<group>"; };
+		8392732A26EDFF8D002553BE /* CalorieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieModel.swift; sourceTree = "<group>"; };
+		8392733326EE2609002553BE /* LogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		8392736126F12944002553BE /* Lose It!Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lose It!Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8392736526F12944002553BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8392737926F31D05002553BE /* CalculatorBrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrainTests.swift; sourceTree = "<group>"; };
+		8392737F26F323B9002553BE /* CalorieManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieManagerTests.swift; sourceTree = "<group>"; };
+		8392738926F34909002553BE /* SearchViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerTests.swift; sourceTree = "<group>"; };
+		8392738D26F34CE0002553BE /* MyDayViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyDayViewControllerTests.swift; sourceTree = "<group>"; };
+		8392739126F3550D002553BE /* LogViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		839272D326E63FBB002553BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8392735E26F12944002553BE /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -51,6 +92,7 @@
 			isa = PBXGroup;
 			children = (
 				839272D826E63FBB002553BE /* Lose It! */,
+				8392736226F12944002553BE /* Lose It!Tests */,
 				839272D726E63FBB002553BE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -59,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				839272D626E63FBB002553BE /* Lose It!.app */,
+				8392736126F12944002553BE /* Lose It!Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -68,6 +111,7 @@
 			children = (
 				839272D926E63FBB002553BE /* AppDelegate.swift */,
 				839272DB26E63FBB002553BE /* SceneDelegate.swift */,
+				8392731626EA2F43002553BE /* Model */,
 				839272EE26E75013002553BE /* Controllers */,
 				8392730526E79A63002553BE /* View */,
 				839272E226E63FBD002553BE /* Assets.xcassets */,
@@ -81,11 +125,12 @@
 			isa = PBXGroup;
 			children = (
 				839272DD26E63FBB002553BE /* ViewController.swift */,
-				839272F026E75038002553BE /* InfoViewController.swift */,
 				8392731126E95006002553BE /* ExerciseViewController.swift */,
+				839272F026E75038002553BE /* InfoViewController.swift */,
 				839272FA26E78FAE002553BE /* EstimateViewController.swift */,
 				8392730226E79A5D002553BE /* MyDayViewController.swift */,
-				8392730826E89A11002553BE /* LogViewController.swift */,
+				8392733326EE2609002553BE /* LogViewController.swift */,
+				8392732026EBEC38002553BE /* SearchViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -96,6 +141,31 @@
 				839272DF26E63FBB002553BE /* Main.storyboard */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8392731626EA2F43002553BE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8392731B26EA349B002553BE /* CalculatorBrain.swift */,
+				8392731726EA2F61002553BE /* Calories.swift */,
+				8392732326ECA0F7002553BE /* CalorieManager.swift */,
+				8392732626ED441A002553BE /* CalorieData.swift */,
+				8392732A26EDFF8D002553BE /* CalorieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8392736226F12944002553BE /* Lose It!Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8392736526F12944002553BE /* Info.plist */,
+				8392737926F31D05002553BE /* CalculatorBrainTests.swift */,
+				8392737F26F323B9002553BE /* CalorieManagerTests.swift */,
+				8392738926F34909002553BE /* SearchViewControllerTests.swift */,
+				8392738D26F34CE0002553BE /* MyDayViewControllerTests.swift */,
+				8392739126F3550D002553BE /* LogViewControllerTests.swift */,
+			);
+			path = "Lose It!Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,6 +188,24 @@
 			productReference = 839272D626E63FBB002553BE /* Lose It!.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8392736026F12944002553BE /* Lose It!Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8392736826F12944002553BE /* Build configuration list for PBXNativeTarget "Lose It!Tests" */;
+			buildPhases = (
+				8392735D26F12944002553BE /* Sources */,
+				8392735E26F12944002553BE /* Frameworks */,
+				8392735F26F12944002553BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8392736726F12944002553BE /* PBXTargetDependency */,
+			);
+			name = "Lose It!Tests";
+			productName = "Lose It!Tests";
+			productReference = 8392736126F12944002553BE /* Lose It!Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -129,6 +217,10 @@
 				TargetAttributes = {
 					839272D526E63FBB002553BE = {
 						CreatedOnToolsVersion = 12.0.1;
+					};
+					8392736026F12944002553BE = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = 839272D526E63FBB002553BE;
 					};
 				};
 			};
@@ -146,6 +238,7 @@
 			projectRoot = "";
 			targets = (
 				839272D526E63FBB002553BE /* Lose It! */,
+				8392736026F12944002553BE /* Lose It!Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -161,6 +254,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8392735F26F12944002553BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -169,17 +269,43 @@
 			buildActionMask = 2147483647;
 			files = (
 				839272FB26E78FAE002553BE /* EstimateViewController.swift in Sources */,
+				8392732426ECA0F7002553BE /* CalorieManager.swift in Sources */,
+				8392732126EBEC38002553BE /* SearchViewController.swift in Sources */,
+				8392731826EA2F61002553BE /* Calories.swift in Sources */,
 				839272DE26E63FBB002553BE /* ViewController.swift in Sources */,
-				8392730926E89A11002553BE /* LogViewController.swift in Sources */,
+				8392733526EE2609002553BE /* LogViewController.swift in Sources */,
 				8392730326E79A5D002553BE /* MyDayViewController.swift in Sources */,
+				8392732726ED441A002553BE /* CalorieData.swift in Sources */,
 				839272DA26E63FBB002553BE /* AppDelegate.swift in Sources */,
 				839272F126E75038002553BE /* InfoViewController.swift in Sources */,
 				8392731226E95006002553BE /* ExerciseViewController.swift in Sources */,
+				8392732B26EDFF8D002553BE /* CalorieModel.swift in Sources */,
+				8392731C26EA349B002553BE /* CalculatorBrain.swift in Sources */,
 				839272DC26E63FBB002553BE /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8392735D26F12944002553BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8392737A26F31D05002553BE /* CalculatorBrainTests.swift in Sources */,
+				8392738026F323B9002553BE /* CalorieManagerTests.swift in Sources */,
+				8392739226F3550D002553BE /* LogViewControllerTests.swift in Sources */,
+				8392738A26F34909002553BE /* SearchViewControllerTests.swift in Sources */,
+				8392738E26F34CE0002553BE /* MyDayViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8392736726F12944002553BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 839272D526E63FBB002553BE /* Lose It! */;
+			targetProxy = 8392736626F12944002553BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		839272DF26E63FBB002553BE /* Main.storyboard */ = {
@@ -325,7 +451,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GLG29GZSU;
 				INFOPLIST_FILE = "Lose It!/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -345,7 +471,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7GLG29GZSU;
 				INFOPLIST_FILE = "Lose It!/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -354,6 +480,46 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8392736926F12944002553BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GLG29GZSU;
+				INFOPLIST_FILE = "Lose It!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Iamrich.Lose-It-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lose It!.app/Lose It!";
+			};
+			name = Debug;
+		};
+		8392736A26F12944002553BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7GLG29GZSU;
+				INFOPLIST_FILE = "Lose It!Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Iamrich.Lose-It-Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lose It!.app/Lose It!";
 			};
 			name = Release;
 		};
@@ -374,6 +540,15 @@
 			buildConfigurations = (
 				839272EB26E63FBD002553BE /* Debug */,
 				839272EC26E63FBD002553BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8392736826F12944002553BE /* Build configuration list for PBXNativeTarget "Lose It!Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8392736926F12944002553BE /* Debug */,
+				8392736A26F12944002553BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
